@@ -1,0 +1,12 @@
+{
+  "name": "personal-financial-advisor-ai",
+  "version": "1.0.0",
+  "description": "Personal Financial Advisor AI - Full-Stack MERN + AI Application",
+  "private": true,
+  "scripts": {
+    "install:all": "npm.cmd --prefix backend install && npm.cmd --prefix frontend install",
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "dev:frontend": "npm.cmd --prefix frontend run dev",
+    "build:frontend": "npm.cmd --prefix frontend run build"
+  }
+}

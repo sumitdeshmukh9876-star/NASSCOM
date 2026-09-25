@@ -1,0 +1,32 @@
+# Personal Financial Advisor AI - .gitignore
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables - NEVER commit these
+.env
+*/.env
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+*/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# MongoDB memory server binaries
+.cache/mongodb-memory-server/
