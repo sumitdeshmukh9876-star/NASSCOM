@@ -157,3 +157,4 @@ http://localhost:5173
 - MongoDB will auto-use an **in-memory instance** if no local MongoDB server is found (data resets on backend restart)
 - For **persistent storage**, install [MongoDB Community Edition](https://www.mongodb.com/try/download/community) and set `MONGODB_URI` in `backend/.env`
 - The frontend build produces a production bundle in `frontend/dist/`
+# NASSCOM
